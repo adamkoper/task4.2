@@ -6,7 +6,7 @@ def palindrome(str):
         Prints answer
     """
 
-    
+
     if string.lower().replace(' ','') == string.lower().replace(' ','')[::-1]:
         return True
     else:
